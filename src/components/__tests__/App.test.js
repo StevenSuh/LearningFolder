@@ -9,7 +9,6 @@ it('renders a comment box', () => {
     // start test
     expect(div.innerHTML).toContain('Comment Box');
     // end test
-    
 
     ReactDOM.unmountComponentAtNode(div);
 });
