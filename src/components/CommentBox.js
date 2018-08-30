@@ -4,7 +4,9 @@ class CommentBox extends Component {
     constructor(props) {
         super(props);
 
-        this.state = { comment: "" };
+        this.state = { 
+            comment: "" 
+        };
     }
 
     handleChange = (event) => {
