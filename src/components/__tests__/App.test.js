@@ -8,7 +8,7 @@ import CommentList from "components/CommentList";
 // setup
 let app_wrapped;
 beforeEach(() => {
-    app_wrapped = shallow(<App />);
+    app_wrapped = shallow(<App/>);
 });
 // setup end
 
